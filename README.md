@@ -21,6 +21,27 @@ To run this project, you need to have Python 3.9+ installed. The required depend
 pip install -r requirements.txt
 ```
 
+## Data and Model Weights
+
+Before running the experiments, you need to download the necessary datasets and model weights. Use the following links to download the required files:
+
+### Datasets
+
+| Dataset Type | Dataset Name | Download Link |
+|--------------|--------------|---------------|
+| ID Dataset   | VOC          | [Download VOC](https://www.icloud.com/iclouddrive/0b70OtUMLKA2tGYFan-CIhV2Q#voc) |
+| ID Dataset   | BDD          | [Download BDD](https://www.icloud.com/iclouddrive/0e9a4AGjYthcm-jcsspgArKGw#bdd) |
+| OOD Dataset  | ID-VOC-OOD-COCO | [Download ID-VOC-OOD-COCO](https://www.icloud.com/iclouddrive/03fVTSGjJU4ZElIuLtaxL91eQ#ID-voc-OOD-coco) |
+| OOD Dataset  | ID-BDD-OOD-COCO | [Download ID-BDD-OOD-COCO](https://www.icloud.com/iclouddrive/035wUSZkzhx5ouUWJNifGu3NQ#ID-bdd-OOD-coco) |
+
+### Model Weights
+
+| Model | Download Link |
+|-------|---------------|
+| YOLOv8 and YOLOv10 | [Download Models](https://www.icloud.com/iclouddrive/07cX1HaurvR8G-WxAit_ulKng#models) |
+
+After downloading, place the datasets and model weights in the appropriate directories within the project structure.
+
 ## Usage
 
 1. Clone the repository:
