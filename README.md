@@ -1,6 +1,6 @@
 # Box-Based Monitor Approach for Out-of-Distribution Detection in YOLO: An Exploratory Study
 ![RV24](architecture.png)
-This repository contains the code for the paper "Box-Based Monitor Approach for Out-of-Distribution Detection in YOLO: An Exploratory Study". The project investigates a novel method to detect out-of-distribution (OoD) samples in YOLO (You Only Look Once) object detection models using a box-based monitor approach. This approach leverages a geometric box structure to enclose regions in the logit space where the neural network makes decisions on in-distribution (ID) data, serving as a reference to monitor the network's behavior during deployment. Our preliminary results show that this box-based monitor significantly reduces false positive rates for OoD samples while maintaining a high true positive rate for ID samples, outperforming several existing logits-based scoring methods.
+This repository contains code for the paper “Box-Based Monitor Approach for Out-of-Distribution Detection in YOLO: An Exploratory Study.” It explores a novel box-based method to detect out-of-distribution (OoD) samples in YOLO object detection models.
 
 
 
