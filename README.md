@@ -46,8 +46,8 @@ After downloading, place the datasets and model weights in the appropriate direc
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/hugoQAQ/bm-yolo.git
+   cd bm-yolo
    ```
 
 2. Install the required dependencies:
